@@ -5,12 +5,6 @@
 </script>
 
 <style>
-    .bold {
-        font-weight: bold;
-        color: var(--white-1);
-        font-size: max(2vw,1.5rem);
-        margin: 5px;
-    }
 
     p {
         text-align: center;
@@ -18,16 +12,12 @@
 
     a {
         text-decoration: none;
-        color: var(--black-3);
+        color: var(--white-1);
     }
-
-    .hwrap {
-        display: flex;
-    }
-
+    
     .main {
         width: 100px;
-    }
+    } 
 </style>
 
 <Wrapper>
@@ -39,16 +29,16 @@
 
     <div class='hwrap'>
         <Button>
-            Arch Linux
+            🖥️ Arch Linux
         </Button>
         <Button>
-            SvelteKit
+            📝 SvelteKit
         </Button>
     </div>
 
     <div class='hwrap'>
-        <Button>
-            <a href='https://github.com/neozxw'>Github</a>
+        <Button clickable='true'>
+            <a href='https://github.com/neozxw'>🌐 GitHub</a>
         </Button>
     </div>
 </Wrapper>
@@ -57,5 +47,8 @@
 <div class='hwrap'>
     <Project name='neozxw.net' url='#' img='/neozxw.svg' >
         Personal information and contacts.
+    </Project>
+    <Project name='Web log' url='/posts' img='/neozxw.svg' >
+        A periodic stream of web posts.
     </Project>
 </div>

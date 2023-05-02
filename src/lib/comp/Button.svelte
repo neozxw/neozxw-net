@@ -10,8 +10,16 @@
         border-radius: 30px;
         margin: 5px;
     }
+
+    .clickable {
+        background: var(--link-1);
+    }
 </style>
 
-<div class='button'>
+<script>
+    export let clickable = false;
+</script>
+
+<div class='button {clickable ? 'clickable' : ''}'>
     <slot />
 </div>
