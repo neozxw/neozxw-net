@@ -29,16 +29,19 @@
 
     <div class='hwrap'>
         <Button>
-            🖥️ Arch Linux
+            🖥️ Linux
         </Button>
         <Button>
-            📝 SvelteKit
+            📝 Web Developer
         </Button>
     </div>
 
     <div class='hwrap'>
         <Button clickable='true'>
             <a href='https://github.com/neozxw'>🌐 GitHub</a>
+        </Button>
+        <Button clickable='true'>
+            <a href='https://www.reddit.com/user/neozxw'>🔴 Reddit</a>
         </Button>
     </div>
 </Wrapper>

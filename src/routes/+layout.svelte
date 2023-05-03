@@ -8,7 +8,7 @@
         --black-2: rgb(45, 48, 55);
         --black-3: rgb(130,135,140);
 
-        --link-1: rgb(173, 70, 67);
+        --link-1: rgb(70, 173, 67);
 
         --shadow-1: 0 0px 5px 3px rgba(0,0,0,0.2);
 

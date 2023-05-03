@@ -2,7 +2,8 @@
     import Project from '$lib/comp/Project.svelte';
 
     let projects = [
-        {'name': 'Introduction', 'date': '2023-05-02'}
+        {'name': 'Introduction', 'date': '2023-05-02'},
+        {'name': 'A Revised New Life', 'date': '2023-05-03'}
     ];
 
     projects = projects.map((x,id) => {
@@ -10,6 +11,7 @@
         x.id = id;
         return x;
     });
+    projects = projects.reverse();
 </script>
 
 <style>

@@ -9,6 +9,6 @@
 </style>
 
 <div class='main'>
-    <h1><a href='/'>neozxw</a></h1>
+    <h1><a href='/'>neozxw</a> <a href='/posts'>(web log)</a></h1>
     <slot />
 </div>
