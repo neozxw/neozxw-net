@@ -25,7 +25,7 @@
 
     <img class='main' src='/neozxw.svg' alt='neozxw Logo'>
 
-    <p>Web developer planning to enter the professional space</p>
+    <p>Expanding the Internet</p>
 
     <div class='hwrap'>
         <Button>
