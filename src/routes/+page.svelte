@@ -40,9 +40,6 @@
         <Button clickable='true'>
             <a href='https://github.com/neozxw'>🌐 GitHub</a>
         </Button>
-        <Button clickable='true'>
-            <a href='https://www.reddit.com/user/neozxw'>🔴 Reddit</a>
-        </Button>
     </div>
 </Wrapper>
 
